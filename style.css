@@ -1,0 +1,45 @@
+body {
+    background-color: #fff6ef;
+    font-family: Playfair Display, Lora;
+}
+	h1 {
+		color: #ca98cf;
+        font-size: 48px;
+	}
+	p {
+		color: #262525;
+	}
+	h2 {
+		color: #ca98cf;
+        font-size: 28px;
+	}
+    p {
+        color: #262525;
+        font-size: 18px;
+    }
+    a {
+        font-size: 18px;
+        color: #b84f68;
+        text-decoration: none;
+    }
+    img {
+        width: 300px;
+        height: auto;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    li {
+        color: #b07b0b;
+        margin: 10px;
+    }
+    	.myDiv {
+  background-color: hsl(281, 20%, 81%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+	body {
+		font-family: Playfair Display, Lora;
+		background-color: #fff6ef;
+		margin: 20px;
+	}
