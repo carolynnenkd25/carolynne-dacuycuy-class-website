@@ -1,4 +1,5 @@
 body {
+    background-image: url('yellow grid.png');
     background-color: #fff6ef;
     font-family: Playfair Display, Lora;
 }
@@ -6,6 +7,33 @@ body {
 		color: #ca98cf;
         font-size: 48px;
 	}
+    #selfportrait {
+        width: 350px;
+        height: auto;
+        border: 2px solid #c69bdb;
+        border-radius: 10px;
+    }
+    #quote-button {
+        font-family: Playfair Display, Lora;
+        font-size: 14px;
+        background-color: #f5d0d9;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    #interests-header {
+        color: #ca98cf;
+        font-size: 32px;
+    }
+      #interests {
+        font-size: 18px;
+        background-color: hsl(283, 15%, 82%);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 400px;
+    }
 	p {
 		color: #262525;
 	}
@@ -17,9 +45,9 @@ body {
         color: #262525;
         font-size: 18px;
     }
-    a {
-        font-size: 18px;
-        color: #b84f68;
+    #photo-album {
+        font-size: 16px;
+        color: #bd9131;
         text-decoration: none;
     }
     img {
@@ -29,15 +57,33 @@ body {
         border-radius: 10px;
     }
     li {
-        color: #b07b0b;
+        color: #9b5272;
         margin: 10px;
     }
-    	.myDiv {
-  background-color: hsl(281, 20%, 81%);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+    #places-header {
+        color: #ca98cf;
+        font-size: 28px;
+    }
+    	#places {
+            font-size: 18px;
+            background-color: hsl(283, 15%, 82%);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+        .savory {
+            color: #c18e47;
+        }
+        .sweet {
+            color: #e76eb6;
+        }
+        .halloween {
+            width: 330px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+        }
 	body {
 		font-family: Playfair Display, Lora;
 		background-color: #fff6ef;
