@@ -1,21 +1,31 @@
 body {
     background-image: url('yellow grid.png');
     background-color: #fff6ef;
-    font-family: Playfair Display, Lora;
 }
-	h1 {
-		color: #ca98cf;
+	h1#myweb {
+        color: #cca8ce;
         font-size: 48px;
+        margin: 1px;
+        padding: 45px;
+        background-color: #e9d3e9;
+
+	}
+	#intro-paragraph {
+		color: #262525;
+        font-size: 18px;
+        margin: 1px;
+        padding: 20px;
+        background-color: #fffffe;
 	}
     #selfportrait {
         width: 350px;
         height: auto;
-        border: 2px solid #c69bdb;
+        border: 6px solid #c69bdb;
         border-radius: 10px;
     }
     #quote-button {
         font-family: Playfair Display, Lora;
-        font-size: 14px;
+        font-size: 16px;
         background-color: #f5d0d9;
         padding: 5px 10px;
         border: none;
@@ -28,16 +38,13 @@ body {
     }
       #interests {
         font-size: 18px;
-        background-color: hsl(283, 15%, 82%);
+        background-color: #e9d3e9;;
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         width: 400px;
     }
-	p {
-		color: #262525;
-	}
-	h2 {
+	#interest-header {
 		color: #ca98cf;
         font-size: 28px;
 	}
@@ -64,26 +71,26 @@ body {
         color: #ca98cf;
         font-size: 28px;
     }
-    	#places {
-            font-size: 18px;
-            background-color: hsl(283, 15%, 82%);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 400px;
-        }
-        .savory {
-            color: #c18e47;
-        }
-        .sweet {
-            color: #e76eb6;
-        }
-        .halloween {
-            width: 330px;
-            height: auto;
-            margin: 10px;
-            border-radius: 10px;
-        }
+    #places {
+        font-size: 18px;
+        background-color: #e9d3e9;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 400px;
+    }
+    .savory {
+        color: #c18e47;
+    }
+    .sweet {
+        color: #e76eb6;
+    }
+    .halloween {
+        width: 330px;
+        height: auto;
+        margin: 10px;
+        border-radius: 10px;
+    }
 	body {
 		font-family: Playfair Display, Lora;
 		background-color: #fff6ef;
