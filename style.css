@@ -36,12 +36,23 @@ body {
         font-size: 18px;
         margin: 1px;
         padding: 20px;
-        background-color: #fffffe;
+        background-color: #f1ecc9;
 	}
+    #Me\ list {
+        font-size: 18px;
+        color: #262525;
+        background-color: #f6eafb;
+        padding: 20px;
+        border: 1px solid #fafbfb;
+        border-radius: 12px;
+        box-sizing: border-box;
+        margin: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
     #selfportrait {
         width: 350px;
         height: auto;
-        border: 6px solid #dbd09b;
+        border: 6px solid #f3e3ad;
         border-radius: 10px;
     }
     #quote-button {
@@ -125,6 +136,12 @@ body {
     }
     .halloween {
         width: 250px;
+        height: auto;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .foodpic {
+        width: 300px;
         height: auto;
         margin: 10px;
         border-radius: 10px;
