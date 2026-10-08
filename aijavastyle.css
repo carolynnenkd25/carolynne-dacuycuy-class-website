@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 35px 20px;
+  background: linear-gradient(135deg, #ffe3ee, #e4e6ff, #dcfff3);
+  color: #29233d;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.back-link {
+  display: block;
+  color: #29233d;
+  text-align: left;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: clamp(32px, 7vw, 48px);
+}
+
+.intro {
+  line-height: 1.6;
+}
+
+.stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 320px;
+  margin-top: 25px;
+  border: 3px solid #29233d;
+  border-radius: 25px;
+  background-color: #ffffff;
+  background-image:
+    radial-gradient(#e1d8ef 2px, transparent 2px);
+  background-size: 25px 25px;
+}
+
+#face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 190px;
+  border: 5px solid #29233d;
+  border-radius: 50%;
+  background-color: #ff9ecb;
+  box-shadow: 7px 7px 0 #29233d;
+  font-size: 90px;
+  transition: transform 0.2s;
+}
+
+.controls {
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  padding: 12px 18px;
+  border: 2px solid #29233d;
+  border-radius: 12px;
+  background-color: #f1ecff;
+  color: #29233d;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 3px 3px 0 #29233d;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #29233d;
+  outline-offset: 4px;
+}
+
+.pink {
+  background-color: #ff9ecb;
+}
+
+.yellow {
+  background-color: #ffe36e;
+}
+
+.blue {
+  background-color: #8ed8ff;
+}
+
+.purple {
+  background-color: #c8a4ff;
+}
+
+#reset {
+  margin-top: 25px;
+  background-color: #29233d;
+  color: white;
+}
+
+.reflection {
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.reflection p {
+  line-height: 1.7;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #face {
+    transition: none;
+  }
+}
