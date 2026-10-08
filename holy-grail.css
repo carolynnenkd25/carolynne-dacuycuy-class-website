@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #e8f1f7;
+  background-color: #ffb366;
   font-family: Arial, Helvetica, sans-serif;
 }
 .page {
@@ -31,23 +31,23 @@ body {
   box-sizing: border-box;
 }
 .header {
-  background-color: #3b82f6;
+  background-color: #b58bd6;
 }
 
 .left-sidebar {
-  background-color: #8b5cf6;
+  background-color: #7a4d6d;
 }
 
 .main-content {
-  background-color: #14b8a6;
+  background-color: #d6deb7;
 }
 
 .right-sidebar {
-  background-color: #f97316;
+  background-color: #8e5bc7;
 }
 
 .footer {
-  background-color: #ef4444;
+  background-color: #8fa46b;
 }
 .footer a {
   color: white;

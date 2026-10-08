@@ -2,14 +2,35 @@ body {
     background-image: url('yellow grid.png');
     background-color: #fff6ef;
 }
-	h1#myweb {
-        color: #cca8ce;
-        font-size: 48px;
-        margin: 1px;
-        padding: 45px;
-        background-color: #e9d3e9;
-
-	}
+.page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 120px 1fr 120px;
+  gap: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.middle {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 15px;
+}
+.header,
+.left-sidebar,
+.main-content,
+.right-sidebar,
+.footer {
+  padding: 25px;
+  border: 3px solid #fbfafb;
+  border-radius: 12px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #dec8ef;
+}
 	#intro-paragraph {
 		color: #262525;
         font-size: 18px;
@@ -38,16 +59,15 @@ body {
     }
       #interests {
         font-size: 18px;
-        background-color: #e9d3e9;;
+        color: #262525;
+        background-color: #f6eafb;
         padding: 20px;
-        border-radius: 10px;
+        border: 1px solid #fafbfb;
+        border-radius: 12px;
+        box-sizing: border-box;
+        margin: 10px 0;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 400px;
     }
-	#interest-header {
-		color: #ca98cf;
-        font-size: 28px;
-	}
     p {
         color: #262525;
         font-size: 18px;
@@ -73,26 +93,62 @@ body {
     }
     #places {
         font-size: 18px;
-        background-color: #e9d3e9;
+        color: #262525;
+        background-color: #f6eafb;
         padding: 20px;
-        border-radius: 10px;
+        border: 1px solid #fafbfb;
+        border-radius: 12px;
+        box-sizing: border-box;
+        margin: 10px 0;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 400px;
+    }
+    #food-header {
+        color: #ca98cf;
+        font-size: 28px;
+    }
+    #food {
+        font-size: 18px;
+        color: #262525;
+        background-color: #f6eafb;
+        padding: 20px;
+        border: 1px solid #fafbfb;
+        border-radius: 12px;
+        box-sizing: border-box;
+        margin: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     .savory {
         color: #c18e47;
     }
     .sweet {
-        color: #e76eb6;
+        color: #ac608e;
     }
     .halloween {
-        width: 330px;
+        width: 250px;
         height: auto;
         margin: 10px;
         border-radius: 10px;
     }
-	body {
-		font-family: Playfair Display, Lora;
-		background-color: #fff6ef;
-		margin: 20px;
-	}
+.left-sidebar {
+  background-color: #f0c7d7;
+}
+
+.main-content {
+  background-color: #d6deb7;
+}
+
+.right-sidebar {
+  background-color: #f0c7d7;
+}
+
+.footer {
+  background-color: #f2d9ca;
+}
+.footer a {
+  color: rgb(238, 211, 204);
+  font-size: 16px;
+}
+
+.footer a:hover {
+  color: #fff3a3;
+}
