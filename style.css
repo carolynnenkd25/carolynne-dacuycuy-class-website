@@ -57,7 +57,28 @@ body {
     }
     #quote-button {
         font-family: Playfair Display, Lora;
-        font-size: 16px;
+        color: #fbfffb;
+        font-size: 23px;
+        background-color: #7ca976;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    #holy-grail-link {
+        font-size: 24px;
+        color: #af778b;
+        text-decoration: none;
+        background-color: #f5d0d9;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    #java-link {
+        font-size: 24px;
+        color: #af778b;
+        text-decoration: none;
         background-color: #f5d0d9;
         padding: 5px 10px;
         border: none;
@@ -115,7 +136,7 @@ body {
     }
     #food-header {
         color: #ca98cf;
-        font-size: 28px;
+        font-size: 30px;
     }
     #food {
         font-size: 18px;
